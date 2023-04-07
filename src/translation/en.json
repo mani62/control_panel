@@ -1,0 +1,48 @@
+{
+  "name": "Admin Panel",
+  "welcome": "Welcome",
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "message": {
+      "usernameError": "Please input your username!",
+      "passwordError": "Please input your password!"
+    },
+    "header": "Login"
+  },
+  "header": {
+    "hi": "Hi",
+    "profile": "Profile",
+    "logOut": "Log Out"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "charts": "Charts",
+    "tasks": "Tasks",
+    "comment": "Comment",
+    "setting": "Setting",
+    "feedback": "Feedback",
+    "links": "Links",
+    "social": "Social",
+    "mail": "Mail",
+    "achievement": "Achievement",
+    "logout": "logout",
+    "collapse": "Collapse Menu"
+  },
+  "dashboard": {
+    "forthBox": {
+      "mention": "Mention",
+      "sales": "Today Sales",
+      "visitor": "Today Visitors",
+      "message": "New Messages"
+    },
+    "title": {
+      "areaChart": "site statistic",
+      "lineChart": "yearly sales",
+      "toDoList": "todo list",
+      "Notification": "notification",
+      "dataGraph": "data graph"
+    }
+  }
+}

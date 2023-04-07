@@ -1,0 +1,50 @@
+@import '../theme/Style/Public';
+@import '../theme/Style/Colors';
+@iconPadding: 30px;
+.sidebar{
+  height:   100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: 60px;
+  z-index: 10;
+}
+.ant-menu-submenu-active{
+  & i {
+    color: #fff !important;
+  }
+}
+.sideBarMenu{
+  & i{
+    padding-right: @iconPadding;
+  }
+}
+.ant-menu-submenu-open{
+  & i, .ant-menu-title-content{
+    color: #fff !important;
+  }
+}
+.collapseMenu{
+  position: fixed;
+  bottom: 0;
+  color: @grayColor;
+  padding: 10px 24px;
+  & i{
+    padding-right: 23px;
+  }
+}
+.ant-layout-sider-zero-width-trigger{
+  top: 30%;
+}
+.ant-layout-sider:not(.ant-layout-sider-collapsed){
+  @media (min-width: 767px) and (max-width: 1024px) {
+    width: 240px !important;
+    max-width: 240px !important;
+    min-width: 240px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    z-index: 100;
+    left: 0;
+  }
+}

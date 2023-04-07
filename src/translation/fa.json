@@ -1,0 +1,8 @@
+{
+  "name": "Admin Panel",
+  "welcome": "خوش آمدید",
+  "login": {
+    "username": "username",
+    "password": "password"
+  }
+}

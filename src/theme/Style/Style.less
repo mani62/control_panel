@@ -1,0 +1,59 @@
+@import '../../theme/Style/Public';
+@import '../../theme/Style/Colors';
+.pageTitle{
+  font-size: @pageTitleFontSize;
+}
+.header {
+  .socials {
+    padding: 11px 0 0;
+    & i{
+      padding: 0 10px;
+      @media only screen and (max-width: 375px){
+        padding: 0 8px;
+      }
+    }
+    .ant-badge-count{
+      box-shadow: none;
+      font-size: 10px;
+      line-height: 12px;
+      top: 3px;
+      right: 10px;
+    }
+  }
+}
+.ant-layout-content{
+  padding: 20px;
+}
+.mainBox{
+  background: #fff;
+  border-radius: 5px;
+  padding: @boxPadding;
+}
+.mainBoxWithoutTopBorderRadius{
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 20px @boxPadding;
+}
+.greenBox{
+  background: @green;
+  border-radius: 5px 5px 0 0;
+  padding: @boxPadding;
+}
+.blueBox{
+  background: @blue;
+  border-radius: 5px;
+  padding: 20px @boxPadding;
+}
+.purpleBox{
+  background: @purple;
+  padding: 20px @boxPadding;
+}
+.textRight{
+  text-align: right;
+}
+.textLeft{
+  text-align: left;
+}
+.textCenter{
+  text-align: center;
+}

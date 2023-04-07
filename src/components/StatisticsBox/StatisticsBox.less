@@ -1,0 +1,30 @@
+@import '../../theme/Style/Public';
+@import '../../theme/Style/Colors';
+.statisticsBox{
+  .boxIcon{
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 50%;
+    & i{
+      position: relative;
+      top: 25%;
+    }
+  }
+  .progressBox{
+    text-align: center;
+  }
+  .textBox{
+    padding-left: 20px;
+  }
+  .boxNumber{
+    font-weight: 700;
+    font-size: @titleFontSize;
+    @media (min-width: 767px) and (max-width: 1024px) {
+      font-size: @titleFontSizeMd;
+    }
+  }
+  .boxTitle{
+    color: #979090;
+  }
+}

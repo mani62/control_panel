@@ -1,0 +1,40 @@
+@import '../../theme/Style/Public';
+@import '../../theme/Style/Colors';
+.boxMargin {
+  margin-bottom: @boxMargin;
+}
+.secondProgressBox{
+  //margin-left: @boxLeftSpace;
+}
+.grayTitle{
+  background: @titleBG;
+  color: @grayColor;
+  text-transform: capitalize;
+}
+.greenTitle{
+  background: @primaryColor;
+  color: #fff;
+  text-transform: capitalize;
+  & i{
+    color: #fff !important;
+  }
+}
+.whiteTitle{
+  color:#fff;
+  font-size: @titleFontSizeMd;
+  padding: 0 0 10px 0;
+}
+.progressBox{
+  .ant-progress-bg{
+    height: 15px !important;
+  }
+  .ant-progress-inner{
+    margin-top: 10px;
+  }
+  .progressValue{
+    font-weight: 600;
+  }
+}
+.dataGraphText{
+  color:#fff;
+}

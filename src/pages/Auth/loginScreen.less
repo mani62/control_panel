@@ -1,0 +1,29 @@
+@import '../../theme/Style/Public';
+@import '../../theme/Style/Colors';
+.loginScreen{
+  border-radius: @boxBorderRadius;
+  height: 100vh;
+  .loginForm{
+    padding: @boxPadding;
+    border-radius: 0 0 @boxBorderRadius @boxBorderRadius;
+    background: white;
+  }
+  .loginHeader{
+    text-align: center;
+    background: @primaryColor;
+    border-radius: @boxBorderRadius @boxBorderRadius 0 0;
+    padding: @boxHeaderPadding;
+    color:white;
+    font-size: @titleFontSize;
+  }
+  & i,.ant-input-password-icon svg{
+    color: @grayColor !important;
+  }
+  .ant-input{
+    padding: 4px 0 !important;
+  }
+  .submitBtn{
+    text-align: @centerAlign;
+  }
+}
+

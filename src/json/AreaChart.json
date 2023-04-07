@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "name": "Jan",
+      "react": 300,
+      "vue": 400,
+      "angular": 250,
+      "next": 600
+    },
+    {
+      "name": "Feb",
+      "react": 700,
+      "vue": 600,
+      "angular": 500,
+      "next": 100
+    },
+    {
+      "name": "Mar",
+      "react": 200,
+      "vue": 300,
+      "angular": 400,
+      "next": 500
+    },
+    {
+      "name": "Apr",
+      "react": 900,
+      "vue": 800,
+      "angular": 700,
+      "next": 300
+    },
+    {
+      "name": "May",
+      "react": 189,
+      "vue": 480,
+      "angular": 218,
+      "next": 670
+    },
+    {
+      "name": "Jun",
+      "react": 239,
+      "vue": 380,
+      "angular": 250,
+      "next": 280
+    }
+  ]
+}
