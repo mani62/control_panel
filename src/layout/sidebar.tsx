@@ -1,6 +1,7 @@
 import React, {useContext, useState} from "react";
 import {useTranslation} from "react-i18next";
 import {AuthContext} from "../context/Auth/AuthContext";
+import { useNavigate } from 'react-router-dom';
 // @ts-ignore
 import {FontAwesome, MaterialCommunityIcons, MaterialIcons, Zocial, Ionicons} from 'react-web-vector-icons'
 import {Layout, Menu, Tag} from "antd";
@@ -36,6 +37,8 @@ const Sidebar = (props: any) => {
 };
 
 const SidebarContent = () => {
+    let navigate = useNavigate();
+
     //-- lang
     const {t} = useTranslation();
 
@@ -50,7 +53,7 @@ const SidebarContent = () => {
                     icon: <FontAwesome name={'dashboard'} size={20}/>,
                     children: [{
                         key: '11',
-                        label: t('sidebar.dashboard'),
+                        label: <a onClick={()=>navigate("/")}>{t('sidebar.dashboard')}</a> ,
                     }],
                     label: t('sidebar.dashboard'),
                 },
@@ -69,7 +72,7 @@ const SidebarContent = () => {
                     label: t('sidebar.tasks'),
                     children: [{
                         key: '31',
-                        label: t('sidebar.tasks'),
+                        label: <a onClick={()=>navigate("/task")}>{t('sidebar.tasks')}</a> ,
                     }],
                 },
                 {
@@ -124,7 +127,7 @@ const SidebarContent = () => {
                     label: t('sidebar.mail'),
                     children: [{
                         key: '91',
-                        label: t('sidebar.mail'),
+                        label: <a onClick={()=>navigate("/mail")}>{t('sidebar.mail')}</a> ,
                     }],
                 },
                 {
