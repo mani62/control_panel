@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "key": 0,
+      "background":"#7c95be",
+      "title":"Hire Baraa",
+      "star":{
+        "status": true,
+        "color": "#5f7290"
+      },
+      "subTitle":"Work",
+      "flag": 3,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#66b7f0",
+      "title":"Hire Baraa",
+      "star":{
+        "status": true,
+        "color": "#4f8cb6"
+      },
+      "subTitle":"Work",
+      "flag": 3,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#f7c055",
+      "title":"Visit Mom",
+      "star":{
+        "status": false,
+        "color": "#c59a45"
+      },
+      "subTitle":"Home",
+      "flag": 2,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#9972b5",
+      "title":"Design Logo",
+      "star":{
+        "status": false,
+        "color": "#574664"
+      },
+      "subTitle":"Work",
+      "flag": 3,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#ff503f",
+      "title":"Buy a Suit",
+      "star":{
+        "status": true,
+        "color": "#b0382d"
+      },
+      "subTitle":"Shopping",
+      "flag": 4,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#73d7d1",
+      "title":"Watch Movie",
+      "star":{
+        "status": false,
+        "color": "#529f9a"
+      },
+      "subTitle":"Entertainment",
+      "flag": 5,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#ffc32e",
+      "title":"Visit Baraa",
+      "star":{
+        "status": false,
+        "color": "#d49e16"
+      },
+      "subTitle":"Home",
+      "flag": 2,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#1fb5ac",
+      "title":"Mail Steve",
+      "star":{
+        "status": true,
+        "color": "#136e69"
+      },
+      "subTitle":"Work",
+      "flag": 3,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    },
+    {
+      "key": 0,
+      "background":"#8cc152",
+      "title":"Buy a Mac",
+      "star":{
+        "status": true,
+        "color": "#547432"
+      },
+      "subTitle":"Work",
+      "flag": 3,
+      "text":"Hire Baraa Bilal as CEO for Apple tomorrow at 9PM in the meetin"
+    }
+  ]
+}

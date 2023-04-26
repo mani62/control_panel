@@ -3,7 +3,7 @@ import * as Chart from 'recharts';
 import './BarChart.less';
 
 interface Props {
-    data : any,
+    data : string[]
     color: string,
     dataKey: string,
     height?: number,

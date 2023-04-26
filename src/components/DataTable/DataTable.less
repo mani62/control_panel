@@ -1,0 +1,26 @@
+@import '../../theme/Style/Public';
+@import '../../theme/Style/Colors';
+.progressValue{
+  font-size: @titleFontSize;
+}
+.progressTitle{
+  font-size: @titleFontSizeSm;
+  color: @mainFontColor;
+}
+.toDoItem{
+  padding: 5px 10px;
+  border-radius: @boxBorderRadius;
+  background: @bodyBg;
+  margin-bottom: 10px;
+  color: @grayColor;
+  & i{
+    color: @grayColor !important;
+  }
+  .toDoDragIcon{
+    margin-right: 10px;
+    cursor: move;
+  }
+  .toDoCheckIcon, .toDoCloseIcon{
+    text-align: right;
+  }
+}

@@ -15,7 +15,7 @@ interface Props {
 }
 
 const ToDoList = (props: Props) =>{
-    const [list,setList] = useState<Item[]>(props.items)
+    const [list,setList] = useState<Item[]>(props.items || [])
 
     const itemRenderer = (item: Item, index: number) => {
         return (

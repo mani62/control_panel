@@ -1,6 +1,9 @@
 {
   "name": "Admin Panel",
   "welcome": "Welcome",
+  "deleteBtn": "Delete",
+  "deleteMsg": "Are you sure yoy want to delete items?",
+  "cancelBtn": "Cancel",
   "login": {
     "username": "Username",
     "password": "Password",
@@ -43,6 +46,28 @@
       "toDoList": "todo list",
       "Notification": "notification",
       "dataGraph": "data graph"
+    }
+  },
+  "mail": {
+    "compose": "compose",
+    "title": {
+      "mailBox": "mailBox",
+      "inbox": "inbox",
+      "sent": "sent",
+      "starred": "starred"
+    },
+    "message": {
+      "selectRow": "Please select at least one record to proceed with this action."
+    }
+  },
+  "task": {
+    "title": {
+      "task": "task",
+      "all": "all",
+      "home": "home",
+      "work": "work",
+      "shopping": "shopping",
+      "entertainment": "entertainment"
     }
   }
 }

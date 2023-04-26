@@ -18,16 +18,51 @@ import BarChart from "../../components/BarChart/BarChart";
 // Json
 const toDoList = require('../../json/ToDoList.json');
 const calendarToDoList = require('../../json/CalendarToDoList.json');
-const areaChartData = require('../../json/AreaChart.json');
-const linearChartData = require('../../json/LinearChart.json');
-const barChartData = require('../../json/BarChart.json');
 
 const DashboardScreen = () => {
 
     const {t} = useTranslation();
 
+    const [areaChartData,setAreaChartData] = useState([])
+    const [barChartData,setAreaBarData] = useState([])
+    const [linearChartData,setLinearBarData] = useState([])
+
     useEffect(()=>{
+        getAriaChart()
+        getBarChart()
+        getLinearChart()
     },[])
+
+    //Fetch data from Json file
+    const getAriaChart=()=>{
+        fetch('/json/AreaChart.json')
+            .then(function(response){
+                return response.json();
+            })
+            .then(function(myJson) {
+                setAreaChartData(myJson.data)
+            });
+    }
+
+    const getBarChart=()=>{
+        fetch('/json/BarChart.json')
+            .then(function(response){
+                return response.json();
+            })
+            .then(function(myJson) {
+                setAreaBarData(myJson.data)
+            });
+    }
+
+    const getLinearChart=()=>{
+        fetch('/json/LinearChart.json')
+            .then(function(response){
+                return response.json();
+            })
+            .then(function(myJson) {
+                setLinearBarData(myJson.data)
+            });
+    }
 
     return (
         <>
@@ -71,7 +106,7 @@ const DashboardScreen = () => {
                         <BoxTitle title={t('dashboard.title.areaChart')} icon={<Ionicons name={'md-settings'} size={25} />}/>
                     </div>
                     <div className={'areaChart mainBoxWithoutTopBorderRadius'}>
-                        <AreaChart data={areaChartData.data}/>
+                        <AreaChart data={areaChartData}/>
                     </div>
                 </Col>
                 <Col lg={{span:9}} md={{span:12}} sm={{span:24}} xs={{span:24}}>
@@ -80,7 +115,7 @@ const DashboardScreen = () => {
                             {t('dashboard.title.lineChart')}
                         </div>
                         <LinearChart
-                            data={linearChartData.data}
+                            data={linearChartData}
                             color={'#7bac46'}
                             dotColor={'#7bac46'}
                             height={120}
@@ -154,7 +189,7 @@ const DashboardScreen = () => {
                             <Col span={12} className={'textRight'}>Today</Col>
                         </Row>
                         <LinearChart
-                            data={linearChartData.data}
+                            data={linearChartData}
                             color={''}
                             dotColor={'#fff'}
                             dataKey={'value'}
@@ -169,7 +204,7 @@ const DashboardScreen = () => {
                             </Col>
                             <Col span={12}>
                                 <BarChart
-                                    data={barChartData.data}
+                                    data={barChartData}
                                     color={'#9972b5'}
                                     dataKey={'value'}
                                     barSize={10}

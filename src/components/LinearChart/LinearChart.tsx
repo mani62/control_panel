@@ -3,7 +3,7 @@ import * as Chart from 'recharts';
 import './LinearChart.less';
 
 interface Props {
-    data : any,
+    data : string[]
     color: string,
     dataKey: string,
     dotColor?: string,

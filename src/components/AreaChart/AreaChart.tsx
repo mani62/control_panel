@@ -3,7 +3,7 @@ import * as Chart from 'recharts';
 import './AreaChart.less';
 
 interface Props {
-    data : any
+    data : string[]
 }
 
 const AreaChart = (props:Props) => {

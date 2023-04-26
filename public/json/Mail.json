@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "key": 0,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "sent",
+      "star": true,
+      "date": 1681650441
+    },
+    {
+      "key": 1,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "home",
+      "mailStatus": "receive",
+      "star": false,
+      "date": 1680985613
+    },
+    {
+      "key": 2,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "receive",
+      "star": true,
+      "date": 1680984613
+    },
+    {
+      "key": 3,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "home",
+      "mailStatus": "sent",
+      "star": false,
+      "date": 1680983613
+    },
+    {
+      "key": 4,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "sent",
+      "star": true,
+      "date": 1680982613
+    },
+    {
+      "key": 5,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "home",
+      "mailStatus": "receive",
+      "star": false,
+      "date": 1680981613
+    },
+    {
+      "key": 6,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "receive",
+      "star": true,
+      "date": 1680980613
+    },
+    {
+      "key": 7,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "home",
+      "mailStatus": "receive",
+      "star": false,
+      "date": 1680975613
+    },
+    {
+      "key": 8,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "receive",
+      "star": true,
+      "date": 1680966613
+    },
+    {
+      "key": 9,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "home",
+      "mailStatus": "receive",
+      "star": false,
+      "date": 1680955613
+    },
+    {
+      "key": 10,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "sent",
+      "star": true,
+      "date": 1680946613
+    },
+    {
+      "key": 11,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "important",
+      "mailStatus": "receive",
+      "star": false,
+      "date": 1680935613
+    },
+    {
+      "key": 12,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "sent",
+      "star": true,
+      "date": 1680926613
+    },
+    {
+      "key": 13,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "home",
+      "mailStatus": "receive",
+      "star": false,
+      "date": 1680915613
+    },
+    {
+      "key": 14,
+      "subject": "Can u meet me today ?",
+      "text": "Hi Baraa , can u please tell about your free time today",
+      "name": "Steve Jobs",
+      "status": "work",
+      "mailStatus": "receive",
+      "star": true,
+      "date": 1680906613
+    },
+    {
+      "key": 15,
+      "subject": "Where’re u dude ?",
+      "text": "Dude , i need u now",
+      "name": "My Brother",
+      "status": "home",
+      "mailStatus": "sent",
+      "star": false,
+      "date": 1680905613
+    }
+  ]
+}
